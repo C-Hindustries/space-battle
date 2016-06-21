@@ -8,20 +8,14 @@
   <link rel="stylesheet" type="text/css" href="interface.css" />
 </head>
 <body background= "https://newevolutiondesigns.com/images/freebies/space-wallpaper-3.jpg" id= "body">
+   <ul class="topTabs">
+                <li><a href="#main" onclick="activeMain()" id="mainTab">battle window</a></li>
+                <li><a href="#storage" onclick="activeStorage()" id="storageTab">casino window</a></li>
+                  <li><a href="#stats" onclick="activeStats()" id="statsTab">Stats</a></li>
+                <li><a href="#settings" onclick="activeSettings()" id="settingsTab">Settings</a></li>
+            </ul>
   <div class= "allContaner" id="allContainer">
-  <center>
-  <div class= "starterDiv" id= "starterDiv">
-    <button class= "starterButton" id= "starterButton" onclick= "start()">click to start space battle!</button>
-    <button class= "starterButton" id="loaderButton" onclick= "startLoad()">click to load previous game!</button>
-  </div>
-  </center>
-  <left>
-    <div class= "hidden" id="statsDiv">
-      <div class="title"><h1><strong><span id="rocketName"> </span>:</strong></h1></div>
-      <button class= "hidden" id="gunUpgrade" onclick="upgradeGuns()">click to upgrade guns for: <span id="gunUpgradePrice">100</span>points</button>
-      <div class="hidden" id="gunLevelDiv">gun level: <span id="gunLevel">0</span></div>
-    </div>
-  </left>
+ 
   </div>
   <script type="text/javascript" src="main.js"></script>
   </body>
