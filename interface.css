@@ -131,3 +131,17 @@ h1 {
   border-width: 8px;
   border-color: #aca7a0;
 }
+
+.right {
+ position: relative;
+ left: 40%;
+ text-decoration: none;
+ display: inline-block;
+}
+
+.left {
+  position: relative;
+  right: 40%;
+  text-decoration: none;
+  display: inline-block;
+}
