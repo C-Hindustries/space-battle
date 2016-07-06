@@ -12,15 +12,40 @@
 <body background= "https://newevolutiondesigns.com/images/freebies/space-wallpaper-3.jpg" id= "body">
   <div class="topTabs">
    <ul >
-                <li><a href="#main" onclick="activeMain()" id="mainTab">battle window</a></li>
-                <li><a href="#storage" onclick="activeStorage()" id="storageTab">casino window</a></li>
+                <li><a href="#battle" onclick="activeMain()" id="mainTab">battle Window</a></li>
+                <li><a href="#casino" onclick="activeStorage()" id="storageTab">Casino Window</a></li>
                   <li><a href="#stats" onclick="activeStats()" id="statsTab">Stats</a></li>
                 <li><a href="#settings" onclick="activeSettings()" id="settingsTab">Settings</a></li>
             </ul>
   </div>
-  <div class= "allContaner" id="allContainer">
+  <div id= "game" class= "game">
+    <div id= "moneyDiv" class= "statsDiv">money: <span id= "money">0</span></div>
+ <div id= "gameWindow" class= "gameWindow" background= "https://media1.giphy.com/media/sCIA4mXdrMc6c/200_s.gif">
+   <img id= "tieFighter" class= "tieFighter" src= "http://orig10.deviantart.net/d259/f/2006/103/1/9/pixel_darth_vaders_tie_fighter_by_x_tender.gif" />
+   <img id= "xWing" class= "xWing" src= "http://makepixelart.com/artists/neill-glancy/x-wing/4?dl=true" />
+ </div>
+ <p>
+ <center>
+   <button id= "up" class= "directionButton" onclick= "moveUp()">up</button>
+ </center>
+ </p>
+ <p>
+ <left>
+   <button id= "left" class= "directionButton" onclick= "moveLeft()">left</button>
+ </left>
+ <right>
+   <button id= "right" class= "directionButton" onclick= "moveRight()">right</button>
+ </right>
+ </p>
+ <p>
+   <center>
+     <button id= "down" class= "directionButton" onclick= "moveDown()">down</button>
+   </center>
+ </p>
+ </div>
  
-  </div>
+ 
+ <div id= "casino" class= ""
   <script type="text/javascript" src="main.js"></script>
   </body>
   </html>
