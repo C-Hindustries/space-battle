@@ -1,3 +1,7 @@
+body {
+  background-attachment: fixed;
+  background-position: center;
+}
 
 .starterDiv {
   vertical-align: top;
