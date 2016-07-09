@@ -149,3 +149,8 @@ h1 {
   text-decoration: none;
   display: inline-block;
 }
+
+.center {
+  margin: auto;
+   width: 50%;
+}
