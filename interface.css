@@ -55,32 +55,6 @@ button:hover {
   border-radius: 7px;
 }
 
-.upgradeButton {
-  height: 80px;
-  width: 400px;
-  background-color: #e8e6e3;
-  text-align: center;
-  color: #2c2921;
-  border-radius: 5px;
-  font-family:  monospace, monospace;
-  font-size: 25px;
-  border-style: outset outset outset outset;
-  border-width: 8px;
-}
-
-.upgradeButton:hover {
-  height: 80px;
-  width: 400px;
-  background-color: red;
-  text-align: center;
-  color: white;
-  border-radius: 5px;
-  font-family:  monospace, monospace;
-  font-size: 25px;
-  border-style: outset outset outset outset;
-  border-width: 8px;
-}
-
 h1 {
   color: white;
   text-shadow: 0 0 3px #FF0000;
@@ -134,6 +108,7 @@ h1 {
   border-style: outset outset outset outset;
   border-width: 8px;
   border-color: #aca7a0;
+  width: 75%;
 }
 
 .right {
