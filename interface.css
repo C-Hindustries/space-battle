@@ -128,7 +128,7 @@ h1 {
 
 .center {
   margin: auto;
-   width: 50%;
+  width: 50%;
 }
 
 .directionButton {
@@ -145,6 +145,33 @@ h1 {
 }
 
 .directionButton:hover {
+ height: 80px;
+ width: 400px;
+ background-color: #2c2921;
+ text-align: center;
+ color: #e8e6e3;
+ border-radius: 5px;
+ font-family:  monospace, monospace;
+ font-size: 25px;
+ border-style: outset outset outset outset;
+ border-color: #e8e6e3;
+ border-width: 8px;
+}
+
+#fire {
+  height: 80px;
+  width: 400px;
+  background-color: #e8e6e3;
+  text-align: center;
+  color: #2c2921;
+  border-radius: 5px;
+  font-family:  monospace, monospace;
+  font-size: 25px;
+  border-style: outset outset outset outset;
+  border-width: 8px;
+}
+
+#fire:hover {
   height: 80px;
  width: 400px;
  background-color: #2c2921;
