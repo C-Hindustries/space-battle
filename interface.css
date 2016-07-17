@@ -43,16 +43,16 @@ button:hover {
 }
 
 .statsDiv {
-  height: 80px;
-  width: 400px;
-  text-align: left;
-  width: 400px;
-  background-color: #8080ff;
-  border-color: #000099;
-  border-width: 5px;
-  font-family: Geneva;
-  font-size: 29px;
-  border-radius: 7px;
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+.statsDiv:hover {
+    width: 300px;
 }
 
 h1 {
